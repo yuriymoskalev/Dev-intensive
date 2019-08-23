@@ -8,4 +8,12 @@ object Utils {
 
         return firstName to lastName
     }
+
+    fun transliteration(payload: String, divider: String = " "): String {
+    TODO("create transliteration")
+    }
+
+    fun toInitials(firstName: String?, lastName: String?): String {
+        TODO("create initials")
+    }
 }
